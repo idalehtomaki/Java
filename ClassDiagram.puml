@@ -1,0 +1,15 @@
+@startuml ClassDiagram
+class Visibility {
+    
+    // Attributes
+    - inBackground: boolean = false
+
+    // Constructors
+    + Visibility()
+
+    // Methods
+    + changeVisibility(): void
+    + isVisible(): boolean
+}
+@enduml
+
